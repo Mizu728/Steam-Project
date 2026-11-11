@@ -1,6 +1,6 @@
 # Steam 玩家體驗分析工作包 v0.2
 
-先讀 `results/analysis_report.md`；GitHub 摘要為 `results/README_summary.md`。
+最新進度先讀 [34 筆人工確認結果](human_review/README.md)：使用者全部支持原標籤，數值不變。分析為 `results/analysis_report.md`；GitHub 摘要為 `results/README_summary.md`。
 
 ## Colab
 
@@ -36,3 +36,7 @@ python analysis.py
 - 新手受辱、掉線、材料解鎖等細項尚未完整標記，不能用面向總數代替其筆數或比例。
 
 完整包包含使用者提供的評論資料、原文抽查與分析成果。
+
+## 人工確認版本
+
+`human_review/` 保留上傳原檔、34 筆人工整理版與驗證 JSON。原 Notebook／analysis.py 重現人工確認前的初稿；本次未改標，因此數值仍適用。執行 `python integrate_human_review.py` 可重現人工結果整合，不覆寫原始資料。

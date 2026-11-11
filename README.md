@@ -2,9 +2,9 @@
 
 以 Overwatch、Apex Legends、鳴潮、燕雲十六聲為例，辨識產品痛點，提出產品企劃與 QA 團隊可驗證的優先調查建議。
 
-本專案為個人資料分析作品集。目前已提交 1,600 則樣本、可重跑 Notebook、圖表與分析初稿，正進入人工複核階段，尚未定稿正式研究結論。SQL 與 Power BI 為原規劃中尚未交付的項目。
+本專案為個人資料分析作品集。目前已提交 1,600 則樣本、可重跑 Notebook、圖表與分析初稿，已完成 34 筆抽查的使用者人工確認，正在整理方法說明與作品集摘要，尚未定稿正式研究結論。SQL 與 Power BI 為原規劃中尚未交付的項目。
 
-[查看目前進度與下一步](docs/PROJECT_STATUS.md)｜[閱讀分析初稿](deliverables/steam_analysis_v02/results/analysis_report.md)｜[下載成果 ZIP](deliverables/Steam_Experience_Analysis_v02.zip)
+[查看目前進度與下一步](docs/PROJECT_STATUS.md)｜[閱讀分析初稿](deliverables/steam_analysis_v02/results/analysis_report.md)｜[下載含人工確認的成果 ZIP](deliverables/Steam_Experience_Analysis_v02_human_review_v01.zip)
 
 ![專案目前進度](docs/project_progress.png)
 
@@ -138,17 +138,17 @@ Drive 資料與 Colab 程式不會自動同步 GitHub，需另行確認提交內
 - [x] 核對樣本配額、App ID、評論 ID 唯一性、必要欄位與研究日期。
 - [x] 提供 AI 初步語意標籤與評論×主題統計。
 - [x] 產出主要批評面向圖、正反回饋並列表與分析報告初稿。
-- [x] 完成助理原文抽查 24 筆及鳴潮內容面向補查 10 筆；人工確認另欄留白。
+- [x] 完成 24 筆主抽查及 10 筆補查，並收到使用者 34／34 筆「支持」的人工確認。
 - [x] 提出每款一項優先調查事項，保留數據、案例與下一步查證動作。
 - [x] 提交已執行 Notebook、分析程式、README 摘要初稿與成果 ZIP。
 
-以上完成代表資料／初稿已交付，**不代表 AI 標籤已通過人工驗證**。
+[查看人工確認結果](deliverables/steam_analysis_v02/human_review/README.md)。34 筆人工主題態度與原 AI 相同，統計維持原值；不推論全部 1,600 則標籤都正確。
+
+- [x] 核對人工確認的主題態度與原 AI 完全一致，無須改標或重算本版數值。
 
 ### 目前待完成
 
-- [ ] 由使用者人工確認 34 筆抽查紀錄，目前人工確認結果為 0／34。
-- [ ] 明訂主題邊界，優先完整複核鳴潮「內容與養成」71 則批評，追蹤其他標籤疑點。
-- [ ] 根據人工確認結果重算主題統計、更新圖表與調查建議。
+- [ ] 將使用者採用的主題邊界寫成分類規則，保留助理與人工判讀差異；如擴充品質檢查，可再複核鳴潮內容面向 71 則。
 - [ ] 完成正式作品集結論與成果摘要。
 - [ ] 補上原始收集、完整性驗收、清理與正式抽樣的可重現紀錄；最終 CSV 本身不足以驗收整個資料流程。
 

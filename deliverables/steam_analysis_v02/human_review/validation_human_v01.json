@@ -1,0 +1,25 @@
+{
+  "version": "human_v01",
+  "uploaded_sha256": "a8a78293b924bc75e9f0f21aeea3b42a679fd22d187f424e34725c52d66bfa8b",
+  "original_template_sha256": "a9a77237d3e537637f2e4fe61cc62e475bc436993c5fcca6f2fdfb4b42bf5441",
+  "records": 34,
+  "unique_review_ids": 34,
+  "phases": {
+    "主要抽查": 24,
+    "補充抽查": 10
+  },
+  "human_result_counts": {
+    "支持": 34
+  },
+  "human_labels_different_from_AI": 0,
+  "line_ending_only_differences": 5,
+  "game_counts": {
+    "鳴潮": 16,
+    "Apex Legends": 6,
+    "Overwatch": 6,
+    "燕雲十六聲": 6
+  },
+  "scope": "34 個目標主題抽查紀錄；不推論全部 1,600 則或每一個非目標標籤的品質。",
+  "statistics_action": "人工標籤與原 AI 相同，未修改研究標籤或統計；既有筆數與占比保持不變。",
+  "provenance": "原始 1,600 則資料、空白人工抽查模板與原 AI 助理觀察保留。原始人工驗證狀態是歷史值。"
+}
