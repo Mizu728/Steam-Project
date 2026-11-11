@@ -1,0 +1,58 @@
+{
+  "input_file": "steam_chinese_1600_semantic_v02.csv",
+  "sha256": "05cfe2fda17b17fcabc18d71d686fba53058ac9906f94b1a9ade3a34e142e088",
+  "rows": 1600,
+  "columns": 35,
+  "game_counts": {
+    "Apex Legends": 500,
+    "Overwatch": 500,
+    "燕雲十六聲": 300,
+    "鳴潮": 300
+  },
+  "duplicate_review_ids": 0,
+  "duplicate_game_review_ids": 0,
+  "duplicate_game_text_rows": 133,
+  "note_duplicate_text": "同文不同 ID 保留，不視為同一評論；未驗證來源真實性或帳號獨立性。",
+  "required_missing": {
+    "game": 0,
+    "appid": 0,
+    "review_id": 0,
+    "review": 0,
+    "language": 0,
+    "requested_language": 0,
+    "timestamp_created": 0,
+    "timestamp_updated": 0,
+    "created_at_utc": 0,
+    "month": 0,
+    "文字情緒_AI": 0,
+    "主題_AI": 0,
+    "各主題態度_AI": 0,
+    "分析適用性_AI": 0,
+    "研究期後更新": 0,
+    "人工驗證狀態": 0
+  },
+  "created_min_taipei": "2026-08-01 05:26:12+08:00",
+  "created_max_taipei": "2026-10-31 23:37:07+08:00",
+  "post_period_updated": 9,
+  "post_period_updated_by_game": {
+    "Apex Legends": 1,
+    "Overwatch": 4,
+    "燕雲十六聲": 2,
+    "鳴潮": 2
+  },
+  "topic_pair_rows": 1787,
+  "duplicate_topic_pairs_removed": 0,
+  "AI_applicability": {
+    "有效：可作產品語意分析": 921,
+    "有限資訊：僅情緒或語氣參考": 564,
+    "排除：無法判讀產品體驗": 115
+  },
+  "human_review_status": {
+    "未驗證": 1600
+  },
+  "no_topic_reviews": 679,
+  "python_version": "3.12.14",
+  "pandas_version": "3.1.1",
+  "matplotlib_version": "3.11.2",
+  "denominator": "各遊戲全部樣本；不依分析適用性或情緒篩選。批評只計態度=批評，混合另列。"
+}
